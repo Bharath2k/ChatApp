@@ -4,14 +4,12 @@ import { getFirestore } from "firebase/firestore";
 import Constants from "expo-constants";
 // Firebase config
 const firebaseConfig = {
-  apiKey: Constants.expoConfig.extra.apiKey,
-  authDomain: Constants.expoConfig.extra.authDomain,
-  projectId: Constants.expoConfig.extra.projectId,
-  storageBucket: Constants.expoConfig.extra.storageBucket,
-  messagingSenderId: Constants.expoConfig.extra.messagingSenderId,
-  appId: Constants.expoConfig.extra.appId,
-  databaseURL: Constants.expoConfig.extra.databaseURL,
-  //   @deprecated is deprecated Constants.manifest
+  apiKey: "AIzaSyAq3F_9cn_1tJnNP1S3Soao4TCc79dOwaE",
+  authDomain: "mind-bridge-a93eb.firebaseapp.com",
+  projectId: "mind-bridge-a93eb",
+  storageBucket: "mind-bridge-a93eb.appspot.com",
+  messagingSenderId: "1052298113718",
+  appId: "1:1052298113718:web:2abbf8ed75b0c7e6f7ac17"
 };
 // initialize firebase
 initializeApp(firebaseConfig);
